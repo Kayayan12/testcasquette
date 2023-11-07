@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<!-- shop 06:55:56 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>Ma boutique</title>
+
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- master stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16">
+
+    <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="boxed_wrapper">
+
+        <div class="preloader"></div>
+
+        <!-- Start Top Bar style2 -->
+        <section class="top-bar-style2">
+            <div class="top-style2 clearfix">
+                <div class="top-style2-left">
+                    <p><span class="icon-heart"></span>Bienvenue a la boutique Sublime Elégance +</p>
+                    <ul>
+                        <li>0779553419</li>
+                        <li>exemple@gmail.com</li>
+                        <li>06 Nov - Lundi: 16:30</li>
+                    </ul>
+                </div>
+                <div class="top-style2-right">
+                    <ul class="top-right-menu">
+                        <li><a href="#">Partenaire</a></li>
+                        <li><a href="javascript:history.back()" id="index">Portfolio</a></li>
+                    </ul>
+                    <ul class="topbar-social-links">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End Top Bar style2 -->
+
+        <!--Start Main Header-->
+        <header class="main-header header-style2 stricky">
+            <div class="inner-container clearfix">
+                <div class="logo-box-style2 float-left">
+                    <a href="../index.html">
+                        <img src="Logo/logo.jpeg" alt="Awesome Logo">
+                    </a>
+                </div>
+                <div class="main-menu-box float-right">
+                    <nav class="main-menu style2 clearfix">
+                        <div class="navbar-header clearfix">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li class="dropdown"><a href="../index.html" id="home">Accueil</a>
+                                <li class="dropdown current"><a href="Boutique.html">Boutique</a>
+                                </li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="mainmenu-right style2">
+                        <div class="outer-search-box">
+                            <div class="seach-toggle"><i class="fa fa-search"></i></div>
+                            <ul class="search-box">
+                                <li>
+                                    <form method="post" action="#">
+                                        <div class="form-group">
+                                            <input type="search" name="search" placeholder="Savon liquide" required>
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </div>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Ici pour voir les articles visité ou aimé-->
+                        <div class="cart-box">
+                            <a href="#"><span class="icon-heart"><span class="number">0</span></span></a>
+                        </div>
+                        <div class="button">
+                            <a class="btn-one" href="#">S.E Boutique<span class="flaticon-next"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--End Main Header-->
+
+        <!--Start breadcrumb area-->
+        <section class="breadcrumb-area style2" style="background-image: url(images/istockphoto-163196980-612x612.jpg);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="inner-content-box clearfix">
+                            <div class="title-s2 text-center">
+                                <h1>Cela correspond parfaitement à votre vie</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End breadcrumb area-->
+
+        <!--Start Shop area-->
+        <section id="shop-area" class="main-shop-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-8 col-md-12 col-sm-12 float-right">
+                        <div class="shop-content">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="showing-result-shorting">
+                                        <div class="shorting">
+                                            <select class="selectmenu">
+                                        <option selected="selected">Tri par défaut</option>
+                                        <option>Tri par un</option>
+                                        <option>Tri par deux</option>
+                                        <option>Tri par trois</option>
+                                    </select>
+                                        </div>
+                                        <div class="showing">
+                                            <p>Affichage de 1 à 5 sur 20 résultats</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Sac/s1.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Sac à main</a></h3>
+                                                <span>10 000F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Sac/s2.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Sac à main</a></h3>
+                                                <span>12 000F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Sac/s3.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Sac à main</a></h3>
+                                                <span>13 500F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Sac/s4.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Sac à main</a></h3>
+                                                <span>15 000F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Sac/s6.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Sac à main</a></h3>
+                                                <span>18 000F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Pom/P1.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Pommade Gold</a></h3>
+                                                <span>7 550F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Pom/cosm.jpg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Kits soin</a></h3>
+                                                <span>23 250F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Drap/Drap_presentation.jpg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="#">Drap blanc</a></h3>
+                                                <span>30 000F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+                                <!--Start single product item-->
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Drap/sec/1.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="shop-single.html">Drap caméléon</a></h3>
+                                                <span>30 000F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="single-product-item text-center">
+                                        <div class="img-holder">
+                                            <img src="images/team/Drap/sec/2.jpeg" alt="Awesome Product Image">
+                                        </div>
+                                        <div class="title-holder text-center">
+                                            <div class="static-content">
+                                                <h3 class="title text-center"><a href="shop-single.html">Drap choco</a></h3>
+                                                <span>30 000F CFA</span>
+                                            </div>
+                                            <div class="overlay-content">
+                                                <ul class="clearfix">
+                                                    <li>
+                                                        <a href="#"><span class="icon-cart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Achetez</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-heart"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Envie</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#"><span class="icon-refresh"></span>
+                                                    <div class="toltip-content">
+                                                        <p>Comparer</p>
+                                                    </div>
+                                                </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <!--End single product item-->
+                            </div>
+                            <!--Start post pagination-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="post-pagination text-center">
+                                        <li><a href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--End post pagination-->
+                        </div>
+                    </div>
+
+                    <!--Start sidebar Wrapper-->
+                    <div class="col-xl-3 col-lg-4 col-md-8 col-sm-12 float-left">
+                        <div class="shop-sidebar-wrapper">
+                            <!--Start single sidebar-->
+                            <div class="single-sidebar-box">
+                                <form class="search-form" action="#">
+                                    <input placeholder="Search..." type="text">
+                                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                            </div>
+                            <!--End single sidebar-->
+                            <!--Start single sidebar-->
+                            <div class="single-sidebar-box pdbtm">
+                                <div class="shop-sidebar-title">
+                                    <h3>Catégories</h3>
+                                </div>
+                                <ul class="categories clearfix">
+                                    <li><a href="#">Cosmétique</a></li>
+                                    <li><a href="#">Style</a></li>
+                                    <li><a href="#">Literie</a></li>
+                                    <li><a href="#">Cuisine</a></li>
+                                </ul>
+                            </div>
+                            <!--End single sidebar-->
+                            <!--Start single sidebar-->
+                            <div class="single-sidebar-box">
+                                <div class="shop-sidebar-title">
+                                    <h3>Produits populaires</h3>
+                                </div>
+                                <ul class="products-post">
+                                    <li>
+                                        <div class="img-holder">
+                                            <img src="images/team/Sac/test 1.jpg" alt="Awesome Image">
+                                            <div class="overlay-style-one">
+                                                <div class="box">
+                                                    <div class="content">
+                                                        <a href="#"><span class="icon-link"></span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="title-holder">
+                                            <h5 class="post-title"><a href="#">Collection Balade</a></h5>
+                                            <span>34 000F CFA</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="img-holder">
+                                            <img src="images/team/Drap/chastity-cortijo-M8iGdeTSOkg-unsplash.jpg" alt="Awesome Image">
+                                            <div class="overlay-style-one">
+                                                <div class="box">
+                                                    <div class="content">
+                                                        <a href="#"><span class="icon-link"></span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="title-holder">
+                                            <h5 class="post-title"><a href="#">Collection Dodo</a></h5>
+                                            <span>38 250F CFA</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="img-holder">
+                                            <img src="images/team/Pom/Skin.jpg" alt="Awesome Image">
+                                            <div class="overlay-style-one">
+                                                <div class="box">
+                                                    <div class="content">
+                                                        <a href="#"><span class="icon-link"></span></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="title-holder">
+                                            <h5 class="post-title"><a href="#">Brillance</a></h5>
+                                            <span>10 000F CFA</span>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!--End single sidebar-->
+                        </div>
+                    </div>
+                    <!--End Sidebar Wrapper-->
+
+                </div>
+            </div>
+        </section>
+        <!--End Shop area-->
+
+        <!--Start footer area Style4-->
+        <footer class="footer-area style4">
+            <div class="container">
+                <div class="row">
+                    <!--Start single footer widget-->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                        <div class="single-footer-widget marbtm50-s4">
+                            <div class="our-info-box">
+                                <div class="footer-logo">
+                                    <a href="javascript:history.back()" id="index">
+                                        <img src="Logo/logo.jpeg" alt="Awesome Logo">
+                                    </a>
+                                </div>
+                                <div class="text">
+                                    <p>Nous sommes fiers de vous présenter notre gamme de produits, conçus avec amour et dévouement en Côte d'Ivoire. Chez Sublime Elégance +, nous croyons en la beauté de notre pays, en sa richesse culturelle et en la qualité exceptionnelle de ses matières premières. C'est pourquoi nous sommes déterminés à vous offrir des produits authentiques, fabriqués localement à partir de ressources typiquement ivoiriennes.</p>
+                                </div>
+                                <div class="follow-us-social-links clearfix">
+                                    <span>Ou nous joindre</span>
+                                    <ul>
+                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="#">Instagram</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+
+                    <!--Start single footer widget-->
+                    <div class="col-xl-4 col-lg-3 col-md-12 col-sm-12">
+                        <div class="single-footer-widget pdtop50-s4">
+                            <div class="title-style2">
+                                <h3>Ecriver nous</h3>
+                            </div>
+                            <div class="subscribe-box">
+                                <form class="subscribe-form" action="#">
+                                    <input type="email" name="email" placeholder="Votre mail">
+                                    <button class="btn-one" type="submit">Envoyé<span class="flaticon-next"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End single footer widget-->
+                </div>
+            </div>
+        </footer>
+        <!--End footer area style4-->
+
+        <!--Start Footer Contact Info Area-->
+        <section class="footer-contact-info-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <ul class="footer-contact-info clearfix">
+                            <li>
+                                <div class="single-footer-contact-info">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <span class="icon-global"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>Côte d'ivoire<br> Abidjan, Angré</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-footer-contact-info">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <span class="icon-support1"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>+225 0779553419<br> <span>06 Nov - Lundi:</span> 16:30</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="single-footer-contact-info">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <span class="icon-shipping-and-delivery"></span>
+                                        </div>
+                                        <div class="text">
+                                            <p>exemple@gmail.com<br> exemple@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Footer Contact Info Area-->
+
+        <!--Start footer bottom area-->
+        <section class="footer-bottom-area style3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="copyright-text text-center">
+                            <p><a href="https://www.acim-ci.net" target="_blank">ACIM CI </a>Copyright © 2023 ACIM Tous Droits Réservés.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End footer bottom area-->
+
+    </div>
+
+
+    <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap-select.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery.bootstrap-touchspin.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.bootstrap-touchspin.js"></script>
+
+    <script src="assets/language-switcher/jquery.polyglot.language.switcher.js"></script>
+    <script src="assets/timepicker/timePicker.js"></script>
+    <script src="assets/html5lightbox/html5lightbox.js"></script>
+
+    <script src="assets/bootstrap-sl-1.12.1/bootstrap-select.js"></script>
+    <script src="assets/jquery-ui-1.11.4/jquery-ui.js"></script>
+
+    <!-- thm custom script -->
+    <script src="js/custom.js"></script>
+
+    <!-- Fonction js permettant le retout en cliquqant sur "Portfolio" -->
+    <script>
+        const boutonRetour = document.getElementById('index');
+      
+        boutonRetour.addEventListener('click', function() {
+          window.history.back();
+        });
+      </script>
+
+</body>
+
+
+<!-- shop 06:57:08 GMT -->
+</html>
